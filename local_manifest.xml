@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+        <remote name="Prettysir"
+
+                fetch="https://github.com/Prettysir" />
+
+ <!-- Trees -->
+
+ <project path="device/asus/X00QD" name="Prettysir/android_device_asus_X00QD.git" remote="Pretty" revision="13.0" />
+
+ <project path="vendor/asus/X00QD" name="Prettysir/vendor_asus_X00QD.git" remote="Pretty" revision="twelve" />
+
+ <project path="kernel/asus/X00QD" name="Prettysir/android_kernel_asus_X00QD" remote="Pretty" revision="13.0" />
+
+ 
+
+</manifest>
+
+Footer
+
+© 2023 GitHub, Inc.
+
+Footer navigation
+
+Terms
+
+Privacy
+
