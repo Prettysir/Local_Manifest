@@ -14,17 +14,19 @@
 
  <project path="kernel/asus/X00QD" name="Prettysir/android_kernel_asus_X00QD" remote="Pretty" revision="13.0" />
 
- 
+ <!--Clang--> 
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
+           name="clang-r450784d" 
+           remote="ImSurajxD" 
+           revision="master" />
+           
+<!--Toolchain-->
+  <project path="prebuilts/clang/host/linux-x86/trb_clang"
+           name="trb_clang" 
+           remote="trb" 
+           revision="17" clone-depth="1" />
 
 </manifest>
 
-Footer
 
-© 2023 GitHub, Inc.
-
-Footer navigation
-
-Terms
-
-Privacy
 
