@@ -1,32 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
-
-        <remote name="Prettysir"
-
-                fetch="https://github.com/Prettysir" />
-
+ <remote name="me" 
+        fetch="https://github.com/Prettysir" />
+ <remote name="ZorEl212" 
+        fetch="https://github.com/ZorEl212" />
+ <remote name="clang"
+          fetch="https://github.com/ArrowOS-Devices" />
  <!-- Trees -->
-
- <project path="device/asus/X00QD" name="Prettysir/android_device_asus_X00QD.git" remote="Pretty" revision="13.0" />
-
- <project path="vendor/asus/X00QD" name="Prettysir/vendor_asus_X00QD.git" remote="Pretty" revision="twelve" />
-
- <project path="kernel/asus/X00QD" name="Prettysir/android_kernel_asus_X00QD" remote="Pretty" revision="13.0" />
-
- <!--Clang--> 
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
-           name="clang-r450784d" 
-           remote="ImSurajxD" 
-           revision="master" />
-           
-<!--Toolchain-->
-  <project path="prebuilts/clang/host/linux-x86/trb_clang"
-           name="trb_clang" 
-           remote="trb" 
-           revision="17" clone-depth="1" />
-
+ <project path="device/samsung/m23xq" name="android_device_samsung_m23xq" remote="me" revision="lineage-19.1" />
+ <project path="device/samsung/sm7225-common" name="android_device_samsung_sm7225-common" remote="me" revision="lineage-19.1" />
+ <!-- Vendor -->
+ <project path="vendor/samsung" name="android_vendor_samsung_sm7225-common" remote="me" revision="lineage-19.1" />
+ <!-- Kernel -->
+ <project path="kernel/samsung/m23xq" name="android_kernel_samsung_m23xq" remote="me" revision="twelve" />
+ <!-- Clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="clang" revision="arrow-11.0" />
+ <!-- Hardware -->
+ <project name="android_hardware_samsung" path="hardware/samsung" remote="me" revision="lineage-19.1" />
+ <!-- LOCAL EDITS -->
+ <!-- Remove android_art -->
+ <remove-project name="platform/art" />
+ <!-- ART -->
+ <project name="android_art" path="android/art" remote="me" revision="lineage-19.1" />
+ <!-- Remove android_frameworks_base -->
+ <remove-project name="LineageOS/android_frameworks_base" />
+ <!-- SYSTEMUI FIX -->
+ <project name="android_frameworks_base" path="frameworks/base" remote="me" revision="lineage-19.1" />
 </manifest>
-
-
-
