@@ -10,7 +10,7 @@
   <project name="mrx7014/android_vendor_samsung_sm6225-common" path="vendor/samsung/sm6225-common" remote="github" revision="lineage-21.0" />
 
   <!-- Kernel source -->
-  <project name="mrx7014/android_kernel_samsung_a23" path="kernel/samsung/a23" remote="github" revision="fourteen" />
+  <project name="mrx7014/android_kernel_samsung_a23" path="kernel/samsung/sm6225" remote="github" revision="fourteen" />
   
   <!-- hardware -->
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-21" />
